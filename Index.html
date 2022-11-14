@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mini-Game Bryan</title>
+    <!--  Esta es otra forma de estilos en ves de usar una carpeta para css, simplemente poner la etiqueta style y funciona igual -->
+    <style>
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        #pantalla {
+            border: groove 8px gold;
+            background: rgb(6, 65, 192);
+        }
+        
+        #boton {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bolder;
+            padding: 3px;
+            border: solid 2px black;
+        }
+        
+        #boton:hover {
+            background-color: lightcoral;
+            font-size: 22px;
+            border: groove 4px red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Game</h1>
+    <canvas id="pantalla" width="960px" height="450px"> <!-- etiqueta del canvas con sus medidas en la pantalla -->
+            Tu navegador no soporta Canvas; Porfavor intentar usar un navegador distinto o un dispositivo diferente.
+    </canvas>
+    <!-- El boton que nos sirve para recargar la pagina y asi generar una nueva palabra y volver a jugar -->
+    <button id="boton" type="reset" onclick="javascript:window.location.reload();">New game</button>
+</body>
+<script src="Js/Index.js"></script>
+
+</html>
