@@ -1,2 +1,3 @@
-# Landing
-Este es un Mini-juego de ahorcado, tiene mas uso de javaScript...
+- HTML
+- Css
+- JavaScript
